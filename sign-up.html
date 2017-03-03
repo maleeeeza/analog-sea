@@ -13,21 +13,21 @@
 </div>
 
 <section>
-	<form class="" action="/something" method="post">
+	<form class="" action="/signup/" method="post">
 		<h1>Sign Up</h1>
 		<fieldset name="sign-up">
-			<label for="email">Email</label>
-			<input placeholder="foo@bar.com" type="text" name="email" id="email">
+			<label for="email" required>Email</label>
+			<input placeholder="foo@bar.com" type="text" name="email" id="email" required/>
 
-			<label for="password">Password</label>
-			<input placeholder="1234passw0rd" type="text" name="password" id="password">
+			<label for="password" required>Password</label>
+			<input placeholder="1234passw0rd" type="text" name="password" id="password" required/>
 			<button type='submit'>Sign Up</button>
-			<p><a href="" class="forgot-password">Forgot password?</a></p>
+			<p><a href="/forgot-password/new" class="forgot-password">Forgot password?</a></p>
 		</fieldset>
 
 	</form>
 
-	<p>Already have an account? <a href="" class="login">Log In</a></p>
+	<p>Already have an account? <a href="/login" class="login">Log In</a></p>
 
 </section>
 

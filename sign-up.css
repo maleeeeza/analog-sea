@@ -71,6 +71,11 @@ button {
 	
 }
 
+button:hover {
+	background-color: green;
+	border-color: green;
+}
+
 a {
 	font-size: 14px;
 	color: grey;
